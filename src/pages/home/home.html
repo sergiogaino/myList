@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Notes
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-searchbar placeholder="Pesquise por uma nota"  [(ngModel)]="terms"></ion-searchbar>
+  <button ion-button margin-horizontal small color="dark" type="button" (click)="sort()">Ordenar</button>
+  <h1 margin-horizontal>Notas</h1>
+  <ion-card *ngFor="let note of notes | search : terms | sort: {property: column, order: order}">
+    <ion-item>
+      <h2>{{note.title}}</h2>
+      <p>{{note.date}}</p>
+    </ion-item>
+  </ion-card>
+</ion-content>

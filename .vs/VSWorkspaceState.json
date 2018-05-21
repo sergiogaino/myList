@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\assets\\data",
+    "\\src\\pages",
+    "\\src\\pages\\home",
+    "\\src\\pipes\\search",
+    "\\src\\pipes\\sort",
+    "\\src\\providers\\rest-api"
+  ],
+  "SelectedNode": "\\src\\pages\\home\\home.html",
+  "PreviewInSolutionExplorer": false
+}
