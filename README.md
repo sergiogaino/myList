@@ -12,6 +12,10 @@ Foram utilizadas as seguintes tecnologias:
 
 *TypeScript*
 
+*Karma*
+
+*Jasmine*
+
 Após clonar o projeto, para executar localmente, realize a instalação do NodeJs 8.x.x https://nodejs.org/en/download/
 
 No prompt de comando execute os seguintes comandos:
@@ -34,6 +38,10 @@ No prompt de comando execute os seguintes comandos:
 Após a mensagem Development server running! aparecer, o projeto pode ser visto no endereço: 
 
 http://localhost:8100/ionic-lab
+
+**Testes unitários**
+
+`npm test`
 
 
 
